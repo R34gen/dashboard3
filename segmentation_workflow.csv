@@ -1,0 +1,8 @@
+Stage,Description
+Business Problem,Bisnis perlu memahami kelompok pelanggan berdasarkan perilaku transaksi
+Segmentation Type,Segmentasi perilaku transaksi dan geografis sederhana
+Segmentation Variables,"Recency, Frequency, Monetary, Country"
+Method,"RFM Analysis, RFM Scoring, Agglomerative Clustering"
+Tools,"Python, Pandas, Scikit-learn, Power BI"
+Output,"RFM Segment, Cluster Label, Segment Summary"
+Business Use,"Retensi Champions, reaktivasi High Value At Risk, cross-selling Big Spenders, win-back Lost Customers"

@@ -1,0 +1,4 @@
+Cluster,Customers,Avg_Recency,Avg_Frequency,Avg_Monetary,Total_Monetary,Cluster_Label
+0,1390,31.39,9.53,5254.73,7304068.52,High Value Active Customers
+1,1866,49.81,1.97,606.21,1131192.38,Regular / Potential Customers
+2,1082,244.78,1.49,417.7,451947.99,Inactive Low Value Customers

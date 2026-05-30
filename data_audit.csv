@@ -1,0 +1,6 @@
+Masalah,Jumlah
+Duplikasi,5268
+CustomerID kosong,135080
+Invoice cancelled,9288
+Quantity <= 0,10624
+UnitPrice <= 0,2517

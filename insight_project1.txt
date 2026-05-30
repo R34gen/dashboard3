@@ -1,0 +1,24 @@
+INSIGHT PROJECT 1
+
+Total revenue setelah cleaning: 8,887,208.89
+Total transaksi: 18,532
+Total customer: 4,338
+Total produk: 3,665
+
+Bulan dengan revenue tertinggi: 2011-11 sebesar 1,156,205.61
+Negara dengan revenue tertinggi: United Kingdom
+Produk konsisten dengan revenue tertinggi: REGENCY CAKESTAND 3 TIER
+Segmen pelanggan dengan revenue terbesar: Champions
+
+Hasil RFM menunjukkan bahwa pelanggan dapat dibedakan berdasarkan Recency, Frequency, dan Monetary.
+Segmen Champions menjadi kontributor revenue terbesar, sehingga perlu dipertahankan dengan loyalty program.
+Segmen High Value At Risk perlu diprioritaskan untuk reaktivasi karena memiliki nilai pembelian tinggi tetapi mulai pasif.
+Lost Customers memiliki jumlah pelanggan besar, tetapi kontribusi revenue lebih kecil sehingga campaign perlu dibuat hemat biaya.
+
+Clustering digunakan sebagai pendekatan data-driven pendukung.
+Rekomendasi bisnis utama tetap didasarkan pada RFM Segment karena lebih jelas untuk pengambilan keputusan.
+
+Batasan:
+Dataset tidak memiliki data demografis seperti usia, gender, pendapatan, atau preferensi pelanggan.
+Karena itu, segmentasi yang dilakukan adalah segmentasi perilaku transaksi, bukan segmentasi demografis.
+Data Desember 2011 hanya tersedia sampai tanggal 9, sehingga tren bulan tersebut tidak mewakili bulan penuh.
