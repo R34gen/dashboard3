@@ -1,0 +1,8 @@
+Business_Priority,RFM_Segment,Recommended_Action,Customers,Avg_Recency,Avg_Frequency,Avg_Monetary,Avg_Business_Score,Total_Monetary
+Priority 1,High Value At Risk,Reaktivasi personal untuk pelanggan bernilai tinggi,346,141.98,3.77,2462.27,5.45,851944.15
+Priority 2,Champions,Pertahankan dengan loyalty program,784,11.9,12.7,6927.62,2.82,5431251.43
+Priority 3,Big Spenders,Tawarkan produk premium dan cross-selling,391,44.91,4.77,2985.12,2.53,1167181.49
+Priority 3,Loyal Customers,Dorong repeat purchase dan bundling produk,441,15.73,3.69,1245.07,2.08,549076.55
+Priority 4,At Risk,Kirim reminder dan promo terbatas,172,148.44,3.57,562.62,3.62,96771.11
+Priority 5,Regular Customers,Bangun engagement dengan promo reguler,987,35.78,1.67,397.15,1.32,391983.7
+Priority 6,Lost Customers,Win-back campaign biaya rendah,1217,211.69,1.25,327.86,2.22,399000.46

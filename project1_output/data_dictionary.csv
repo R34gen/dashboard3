@@ -1,0 +1,14 @@
+Column,Description,Role_in_Project
+InvoiceNo,Nomor transaksi,Transaction identifier
+StockCode,Kode produk,Product identifier
+Description,Nama produk,Product attribute
+Quantity,Jumlah produk pada transaksi,Sales volume
+InvoiceDate,Tanggal dan waktu transaksi,Time dimension
+UnitPrice,Harga satuan produk,Price attribute
+CustomerID,ID pelanggan,Customer dimension
+Country,Negara pelanggan,Geographic dimension
+Revenue,Nilai transaksi hasil Quantity x UnitPrice,Business KPI and Monetary value
+Date,Tanggal transaksi,Date attribute
+Month,Bulan transaksi,Monthly analysis
+Year,Tahun transaksi,Year filter
+Hour,Jam transaksi,Hourly analysis

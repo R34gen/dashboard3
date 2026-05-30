@@ -1,0 +1,7 @@
+Stage,Implementation,Evidence
+Extract,Membaca dataset Online Retail dari file Excel,Online Retail.xlsx
+Transform,"Cleaning data, membuat Revenue, membuat RFM, segmentasi pelanggan","online_retail_clean.csv, rfm_customer_segment.csv"
+Model,"Membentuk star schema: fact_sales, dim_customer, dim_product, dim_country, dim_date",fact_sales.csv dan tabel dimensi
+Load,Export CSV untuk Power BI,CSV output folder project1_output
+Visualize,"Membuat dashboard Sales Performance, Customer Segmentation, dan Business Recommendation",Screenshot dashboard Power BI
+Decision,"Menggunakan insight untuk strategi retensi, reaktivasi, cross-selling, dan win-back",business_summary.csv dan insight_project1.txt

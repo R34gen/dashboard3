@@ -1,0 +1,11 @@
+Tahap,Keputusan,Alasan
+Data Cleaning,"Menghapus duplikasi, CustomerID kosong, invoice cancelled, Quantity <= 0, UnitPrice <= 0",Agar analisis hanya menggunakan transaksi valid
+Feature Engineering,"Membuat Revenue, Date, Month, Year, dan Hour","Revenue dan waktu diperlukan untuk KPI, RFM, dan dashboard"
+Outlier Handling,"Outlier tidak dihapus dari data utama, hanya dicatat dan ditangani dengan log transform saat clustering",Transaksi ekstrem masih valid dan berkontribusi besar terhadap revenue
+Product Analysis,Top product menggunakan minimum 50 transaksi agar tidak bias oleh satu transaksi ekstrem,Produk konsisten lebih defensible daripada produk yang besar karena satu transaksi
+RFM Analysis,"Menggunakan Recency, Frequency, dan Monetary untuk mengukur perilaku pelanggan",RFM sesuai untuk segmentasi perilaku transaksi
+RFM Scoring,"Recency dan Monetary menggunakan quantile, Frequency menggunakan aturan bisnis",Frequency memiliki banyak nilai yang sama sehingga quantile murni kurang stabil
+Clustering,Agglomerative Clustering digunakan sebagai validasi pola pelanggan,"Clustering mendukung segmentasi berbasis pola data, bukan menggantikan RFM"
+Business Priority,Prioritas bisnis ditentukan berdasarkan RFM Segment dan Business Score,RFM lebih mudah diterjemahkan menjadi tindakan bisnis
+Star Schema,Membentuk fact_sales dan dimension tables untuk Power BI,Star schema memenuhi kebutuhan BI dan data warehouse sederhana
+Dashboard,Power BI digunakan untuk reporting dan visualisasi interaktif,Dashboard diperlukan untuk pengambilan keputusan bisnis

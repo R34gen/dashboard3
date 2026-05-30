@@ -1,0 +1,7 @@
+Component,Description
+Business Problem,Bisnis perlu menentukan pelanggan mana yang harus diprioritaskan untuk retensi dan reaktivasi
+Business Risk,Risiko kehilangan pelanggan bernilai tinggi atau pelanggan menjadi pasif
+Proxy Variable,"Recency digunakan sebagai proxy risiko pasif, Monetary sebagai proxy nilai pelanggan"
+Modeling Approach,Rule-based business decision model berbasis RFM Segment dan Business Score
+Decision Output,Business Priority dan Recommended Action
+Limitation,"Tidak ada label churn aktual, sehingga ini bukan model prediksi churn supervised"

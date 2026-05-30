@@ -1,0 +1,13 @@
+BATASAN ANALISIS PROJECT 1
+
+1. Dataset Online Retail merupakan data transaksi historis tahun 2010-2011 dan berasal dari UK, sehingga tidak langsung merepresentasikan kondisi e-commerce Indonesia saat ini.
+
+2. Dataset tidak memiliki variabel demografis seperti usia, jenis kelamin, pekerjaan, pendapatan, atau preferensi pelanggan. Oleh karena itu, segmentasi yang dilakukan adalah segmentasi perilaku transaksi berbasis RFM dan geografis sederhana berdasarkan Country.
+
+3. Dataset tidak memiliki label churn aktual. Risiko pelanggan pasif hanya diproksikan menggunakan Recency, sehingga analisis ini bukan model prediksi churn supervised.
+
+4. Dataset tidak memiliki informasi biaya, margin, atau profit. Analisis bisnis menggunakan Revenue, bukan Profit.
+
+5. Data Desember 2011 hanya tersedia sampai tanggal 9 Desember, sehingga tren bulan tersebut tidak dapat dibandingkan sebagai bulan penuh.
+
+6. Clustering digunakan sebagai pendekatan data-driven pendukung. Rekomendasi bisnis utama tetap didasarkan pada RFM Segment karena lebih mudah dijelaskan untuk keputusan bisnis.
